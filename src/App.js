@@ -1,6 +1,7 @@
 import './App.css';
 import videoBg from "./videos/sunnyvid.mp4";
 import Time from './components/Time';
+import Input from './components/Input';
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
         <div className='time-box'>
           <Time/>
         </div>
-        <div className='weather-box'></div>
+        <div className='weather-box'>
+          <Input />
+        </div>
       </div>
     </div>
   );
