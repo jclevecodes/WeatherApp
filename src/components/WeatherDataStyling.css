@@ -1,5 +1,22 @@
-.weather-wrapper {
-    /* display: flex;
+.weather-app {
+    color: white;
+    /* margin: 20px; */
+    padding: 30px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center ; */
+    flex-direction: row;
+    gap: 120px;
+}
+
+.weather-location {
+    font-size: 30px;
+}
+
+.weather-degrees {
+    font-size: 40px;
+}
+
+span {
+    font-size: 130px;
 }
