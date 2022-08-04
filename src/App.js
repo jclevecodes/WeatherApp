@@ -3,6 +3,9 @@ import videoBg from "./videos/sunnyvid.mp4";
 import Time from './components/Time';
 import Input from './components/Input';
 import WeatherData from './components/WeatherData';
+// import { WeatherDataFetch } from './WeatherData';
+
+// const [userLocation, setuserLocation] = useState("")
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
           <Time/>
         </div>
         <div className='weather-box'>
-          <Input />
+          <Input
+            // inputLocation={(e) => setuserLocation(e.target.value)} 
+            // formSubmit={WeatherDataFetch}
+          />
           <WeatherData />
         </div>
       </div>

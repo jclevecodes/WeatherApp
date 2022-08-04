@@ -1,7 +1,8 @@
 import React from 'react';
 import './InputStyling.css';
 
-const Input = () => {
+
+const Input = (inputLocation, formSubmit) => {
     document.querySelectorAll(".text-input").forEach((element) => {
         element.addEventListener("blur", (event) => {
             if (event.target.value !== "") {
@@ -14,9 +15,9 @@ const Input = () => {
     
   return (
     <form className='input-form'>
-        <div class="input-container">
-            <input type="text" id="username" class="text-input" autocomplete="off" placeholder="Please Enter Location" required />
-            <label class="label" for="username">Enter Location</label>
+        <div className="input-container">
+            <input type="text" id="username" className="text-input" autoComplete='off' placeholder="Please Enter Location" required />
+            <label className="label" >Enter Location</label>
         </div>
     </form>   
 
