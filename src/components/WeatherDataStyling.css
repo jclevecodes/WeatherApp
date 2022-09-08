@@ -1,6 +1,6 @@
 .weather-app {
     color: white;
-    /* margin: 20px; */
+    margin: auto;
     padding: 30px;
     display: flex;
     align-items: center;
